@@ -1,0 +1,29 @@
+manifestVersion: 1
+id: myhomeremote
+name: My Home Remote
+tagline: Remote, Wiim, HomeAssistant
+icon: https://svgshare.com/i/17rb.svg
+category: tools
+version: "1.0.0"
+port: 5555
+description: >-
+  Remote for Wiim Speaker and Conditioner and other things with home assistent
+
+developer: Pelin Oleg
+website: https://github.com/pelinoleg/my-home-remote-umbrel
+submitter: Pelin Oleg
+submission: https://github.com/pelinoleg/my-home-remote-umbrel
+repo: https://github.com/pelinoleg/my-home-remote-umbrel
+support: https://github.com/pelinoleg/my-home-remote-umbrel/issues
+
+gallery:
+  - https://i5.walmartimages.com/seo/WiiM-Mini-Wifi-Stream-Music-Player-Wireless-Audio-Stereo-Receiver-Remote-Bundle_58240242-5a3f-4340-a1bd-e359a2a8ea60.dac46d8a275fae6c74df0f6de124daaa.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF
+  - https://domotiqueros.com/wp-content/uploads/2022/06/HomeAssistant-lovelace.webp
+
+
+releaseNotes: >-
+  Initial release of My home remote on Umbrel.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
