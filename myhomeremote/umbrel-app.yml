@@ -2,7 +2,7 @@ manifestVersion: 1
 id: myhomeremote
 name: My Home Remote
 tagline: Remote, Wiim, HomeAssistant
-icon: https://svgshare.com/i/17rb.svg
+icon: https://cdn.icon-icons.com/icons2/1320/PNG/512/-remote-control_86828.png
 category: tools
 version: "1.0.0"
 port: 5555
