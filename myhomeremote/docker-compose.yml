@@ -6,10 +6,10 @@ services:
     ports:
       - "5555:5000"
     environment:
-      - HOME_ASSISTANT_TOKEN
-      - HOME_ASSISTANT_URL
-      - MAIN_MEDIA_PLAYER_ENTITY_ID
-      - SPEAKER_ENTITIES
+      HOME_ASSISTANT_TOKEN: ${HOME_ASSISTANT_TOKEN}
+      HOME_ASSISTANT_URL: ${HOME_ASSISTANT_URL}
+      MAIN_MEDIA_PLAYER_ENTITY_ID: ${MAIN_MEDIA_PLAYER_ENTITY_ID}
+      SPEAKER_ENTITIES: ${SPEAKER_ENTITIES}
     volumes:
       - /home/umbrel/umbrel/my-configs/my-remote-config:/app
     env_file:
